@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.bodystudy
+{
+    background-color: white;
+}
+
+.study
+{
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+.study1
+{
+    color: aqua;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.study1 button
+{
+    background-color: grey;
+    color: aqua;
+    width: 50px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.study1 button:hover
+{
+    background-color: black;
+    transition: all .5s ease-in-out;
+}
+
+.study h4
+{
+    color: aqua;
+    text-align: center;
+}
+
+.study2
+{
+    text-align: center;
+}
+
+.study2 button
+{
+    background-color: grey;
+    color: aqua;
+    margin: 20px;
+    width: 5%;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.study2 button:hover
+{
+    background-color: black;
+    transition: all .5s ease-in-out;
+}
+
+.hasil
+{
+    color: black;
+    width: 70%;
+    margin: 30px auto;
+    box-sizing: border-box;
+    -shadow: 10px 10px 10px rgba(0, 0, 0.5), -3px -3px 3px rgba(0, 0, 0.5);
+    background-color: white;
+    text-align: center;
+}
+
+.hasil p
+{
+    font-size: 70px;
+    padding: 30px;
+}
+
+.footer3
+{
+    color: aqua;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: 460px;
+}
